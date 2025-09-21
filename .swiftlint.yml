@@ -1,0 +1,32 @@
+# .swiftlint.yml
+# Configuration for SwiftLint
+
+included:
+  - ios/Sovereign
+  - ios/SovereignTests
+
+excluded:
+  - Pods
+  - .bundle
+
+# Rules we are disabling for now.
+disabled_rules:
+  - line_length
+  - trailing_whitespace
+  - vertical_whitespace
+  - type_name
+  - identifier_name
+
+# Some rules are opt-in, so they need to be explicitly enabled.
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - fatal_error_message
+  - force_cast
+  - force_try
+  - private_outlet
+  - redundant_nil_coalescing
+  - sorted_imports
+
+# The reporter type to use (xcode, json, csv, checkstyle, junit, html, emoji)
+reporter: "xcode"
