@@ -1,0 +1,10 @@
+# Xcode and iOS
+DerivedData/
+Pods/
+xcuserdata/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+
+# Environment files
+.env
