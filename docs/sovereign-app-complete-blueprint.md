@@ -141,7 +141,7 @@ Every feature, line of code, and word of content must serve this mission.
   - Unit, integration, and UI tests for all modules (Primal Coordinates, Resonant Frequencies, Frequency Modulator, Broadcast, Cosmic Origins, Gamification).
 - **How to Run:**
   - Tests executed via CI pipeline (GitHub Actions/macOS runner).
-  - Test files must be included in Xcode project (`.pbxproj`).
+  - Test files must be included in Xcode project (.pbxproj).
   - Local testing may be limited; CI results are authoritative.
 - **Linting:**
   - SwiftLint checks run automatically.
