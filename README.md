@@ -35,6 +35,14 @@ This project contains a suite of unit tests for the ViewModels.
 - **Locally:** You can run the tests in Xcode by pressing `Cmd+U` or by selecting `Product > Test` from the menu.
 - **CI:** All tests are run automatically on every push and pull request via our GitHub Actions workflow. You can view the results in the "Actions" tab of the repository.
 
+## Documentation
+
+For more detailed information on specific topics, please see the following documents:
+
+- [**Architecture Overview**](docs/architecture.md)
+- [**Testing Strategy**](docs/testing.md)
+- [**Compliance Details**](docs/compliance.md)
+
 ## License
 
 This repository is private and proprietary. All rights reserved.
